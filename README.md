@@ -54,7 +54,7 @@ You can train MPI-INF-3DHP with the following command:
 
 For example if want to evalutae T = 243 model , we can run:
 
-``` python train.py --eval-only --checkpoint checkpoint --checkpoint-file best_epoch.pth.tr --config configs/h36m/STDFormer-large.yaml ```
+``` python train.py --eval-only --checkpoint checkpoint --checkpoint-file best_epoch.pth.tr --config configs/h36m/DSTFormer-large.yaml ```
 
 
 
