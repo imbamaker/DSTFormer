@@ -39,11 +39,15 @@ Please refer to [P-STMO](https://github.com/paTRICK-swk/P-STMO#mpi-inf-3dhp) for
 
 You can train Human3.6M with the following command:
 
-```python train.py -config configs/h36m/STDFormer-large.yaml```
+```python train.py -config configs/h36m/DSTFormer-large.yaml```
+```python train.py -config configs/h36m/DSTFormer-small.yaml```
+```python train.py -config configs/h36m/DSTFormer-xsmall.yaml```
 
 You can train MPI-INF-3DHP with the following command:
 
-``` python train_3dhp.py --config configs/mpi/STDFormer-large.yaml  ```
+``` python train_3dhp.py --config configs/mpi/DSTFormer-large.yaml  ```
+``` python train_3dhp.py --config configs/mpi/DSTFormer-large.yaml  ```
+``` python train_3dhp.py --config configs/mpi/DSTFormer-large.yaml  ```
 
 
 ## Evaluation
